@@ -2,7 +2,6 @@
   "name": "angular-firebase",
   "version": "0.1.1",
   "scripts": {
-    "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "deploy": "rm -rf dist && ng build && firebase deploy && git add -A && git commit -m 'Deployed to Firebase' && git push",
